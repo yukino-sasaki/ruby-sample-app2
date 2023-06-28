@@ -12,9 +12,12 @@ gem "jbuilder",        "2.11.5"
 gem "puma",            "5.6.4"
 gem "bootsnap",        "1.12.0", require: false
 gem "bcrypt",          "3.1.18"
+gem "faker",           "2.21.0"
 gem "will_paginate",           "3.3.1"
 gem "bootstrap-will_paginate", "1.0.0"
 gem "faker",                   "2.21.0"
+gem "will_paginate",           "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
 gem "active_storage_validations", "0.9.8"
 gem "image_processing",           "1.12.2"
 gem "aws-sdk-s3", "1.114.0", require: false
