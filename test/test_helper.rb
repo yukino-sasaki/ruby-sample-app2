@@ -6,10 +6,10 @@ Minitest::Reporters.use!
 
 class ActiveSupport::TestCase
   # 指定のワーカー数でテストを並列実行する
-  parallelize(workers: :number_of_processors)
-
+  
   # test/fixtures/*.ymlにあるすべてのfixtureをセットアップする
   fixtures :all
+  # parallelize(workers: :number_of_processors)
 
   def is_logged_in?
     !session[:user_id].nil?
